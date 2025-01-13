@@ -15,6 +15,7 @@
 }
 
 body {
+    position: relative;
     min-height: 100vh;
     background-color: var(--cor-fundo);
     background-image: url("https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/e7ad6fd88db92591440b6764f5478d1641d3e51c/assets/img/bg-desktop.svg");
@@ -29,8 +30,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 15px;
-
-
 }
 
 .header__nav__item {
@@ -115,11 +114,112 @@ body {
     filter: brightness(0) saturate(100%) invert(23%) sepia(66%) saturate(2000%) hue-rotate(285deg) contrast(94%);
 }
 
-@media (max-width: 425px) {
-    .main {
-        flex-direction: column;
-        gap: 45px;
+@media screen and (max-width: 425px) {
+    body {
+        background-image: url("https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/e7ad6fd88db92591440b6764f5478d1641d3e51c/assets/img/bg-mobile.svg");
     }
 
-    
+    .header {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .header__nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .header__nav__item {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 50px;
+        gap: 20px;
+    }
+
+    .main__info {
+        align-items: center;
+        text-align: center;
+    }
+
+    .main__info__titulo {
+        font-size: 2rem;
+    }
+
+    .main__info__texto {
+        font-size: 1rem;
+    }
+
+    .main__info__botao {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .main__image__image {
+        width: 100%;
+    }
+
+    .footer {
+        justify-content: center;
+        margin: 20px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/e7ad6fd88db92591440b6764f5478d1641d3e51c/assets/img/bg-desktop.svg");
+    }
+
+    .header {
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+
+    .header__nav {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .header__nav__item {
+        font-size: 1.1rem;
+        padding: 5px 15px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin: 100px 40px;
+        gap: 30px;
+    }
+
+    .main__info {
+        align-items: center;
+        text-align: center;
+    }
+
+    .main__info__titulo {
+        font-size: 2.2rem;
+    }
+
+    .main__info__texto {
+        font-size: 1.1rem;
+    }
+
+    .main__info__botao {
+        font-size: 1.1rem;
+        padding: 10px 25px;
+    }
+
+    .footer {
+        justify-content: center;
+        margin: 30px;
+        gap: 15px;
+    }
 }
