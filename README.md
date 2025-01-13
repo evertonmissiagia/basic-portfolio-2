@@ -1,4 +1,5 @@
-![Captura de tela 2025-01-13 141736](https://github.com/user-attachments/assets/cb36d35b-b23b-4552-9ae5-37d0d7c3c727)
+
+![Captura de tela 2025-01-13 204453](https://github.com/user-attachments/assets/f72c4a62-c966-4e88-86b6-685973f88b08)
 
 Um site responsivo e criado para praticar habilidades em desenvolvimento front-end. Este projeto combina HTML semântico e CSS moderno para criar uma experiência envolvente e acessível.
 
