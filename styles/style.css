@@ -41,9 +41,21 @@ body {
 
     background-color: var(--cor-principal);
     border-radius: 15px;
-    padding: 0.7%;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
     padding-top: 0.3%;
-    padding-bottom: 0.3%;
+    padding-bottom: 0.5%;
+}
+
+.header__barra__pesquisa {
+    width: 300px;
+    font-size: 1.1em;
+    font-family: var(--fonte);
+    font-weight: 500;
+    border-radius: 15px;
+    color: var(--cor-fundo);
+    border: 1px solid var(--cor-principal);
+    padding-left: 15px;
 }
 
 .header__nav__item:hover {
