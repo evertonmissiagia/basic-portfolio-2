@@ -15,7 +15,7 @@ Um site responsivo e criado para praticar habilidades em desenvolvimento front-e
 - **CSS3**
 - **Google Fonts**: [Poppins](https://fonts.google.com/specimen/Poppins) e [Open Sans](https://fonts.google.com/specimen/Open+Sans).
 
-## 🔧 Futuras features planejadas:
+## 🔧 Futuras Features Planejadas:
 
 - **Desenvolvimento de sub páginas**
 - **Animações para navegação**
