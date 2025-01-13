@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte: 'Poppins', serif;
+    --cor-fundo: hsl(257, 40%, 49%);
+    --cor-principal: #FCFDF8;
+    --cor-realce: hsl(300, 69%, 71%);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/e7ad6fd88db92591440b6764f5478d1641d3e51c/assets/img/bg-desktop.svg");
+}
+
+.header {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+
+}
+
+.header__nav__item {
+    font-family: var(--fonte);
+    font-weight: 600;
+    color: var(--cor-fundo);
+    font-size: 1.2rem;
+    text-decoration: none;
+
+    background-color: var(--cor-principal);
+    border-radius: 15px;
+    padding: 0.7%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
+.header__nav__item:hover {
+    background-color: var(--cor-realce);
+    color: var(--cor-principal);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+
+    margin-top: 200px;
+    margin-left: 130px;
+    margin-right: 150px;
+    margin-bottom: 300px;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 13px;
+}
+
+.main__info__titulo {
+    font-family: var(--fonte);
+    font-weight: 800;
+    color: var(--cor-principal);
+    font-size: 2.5rem;
+}
+
+.main__info__texto {
+    font-family: var(--fonte);
+    font-weight: 500;
+    color: #ECD9FF;
+    font-size: 1.2rem;
+}
+
+.main__info__botao {
+    font-family: var(--fonte);
+    font-weight: 600;
+    color: var(--cor-fundo);
+    font-size: 1.2rem;
+    text-decoration: none;
+
+    background-color: var(--cor-principal);
+    border-radius: 20px;
+    padding: 1.6%;
+}
+
+.main__info__botao:hover {
+    background-color: var(--cor-realce);
+    color: var(--cor-principal);
+}
+
+.footer {
+    display: flex;
+    gap: 18px;
+    justify-content: end;
+
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.footer__icon:hover {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(66%) saturate(2000%) hue-rotate(285deg) contrast(94%);
+}
+
+@media (max-width: 425px) {
+    .main {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    
+}
