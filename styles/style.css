@@ -108,6 +108,7 @@ body {
     padding: 1.6%;
 }
 
+
 .main__info__botao:hover {
     background-color: var(--cor-realce);
     color: var(--cor-principal);
