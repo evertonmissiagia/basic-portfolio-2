@@ -54,9 +54,9 @@ body {
 .main {
     display: flex;
     flex-direction: row;
-    gap: 45px;
+    gap: 70px;
 
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 130px;
     margin-right: 150px;
     margin-bottom: 300px;
