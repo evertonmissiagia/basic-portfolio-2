@@ -15,14 +15,6 @@ Um site responsivo e criado para praticar habilidades em desenvolvimento front-e
 - **CSS3**
 - **Google Fonts**: [Poppins](https://fonts.google.com/specimen/Poppins) e [Open Sans](https://fonts.google.com/specimen/Open+Sans).
 
-## ⭐ Preview
-
-### Desktop
-![Preview Desktop](https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/main/assets/img/preview-desktop.png)
-
-### Mobile
-![Preview Mobile](https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/main/assets/img/preview-mobile.png)
-
 ### 🔧 Futuras features planejadas:
 
 - **Desenvolvimento de sub páginas**
