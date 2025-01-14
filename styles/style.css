@@ -127,7 +127,7 @@ body {
     filter: brightness(0) saturate(100%) invert(23%) sepia(66%) saturate(2000%) hue-rotate(285deg) contrast(94%);
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 430px) {
     body {
         background-image: url("https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/e7ad6fd88db92591440b6764f5478d1641d3e51c/assets/img/bg-mobile.svg");
     }
@@ -138,9 +138,10 @@ body {
     }
 
     .header__nav {
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
+        display: flex;
+        flex-direction: column-reverse !important;
+        align-items: center;
+        gap: 20px !important;
     }
 
     .header__nav__item {
@@ -151,21 +152,25 @@ body {
     .main {
         flex-direction: column;
         align-items: center;
-        margin: 50px 50px;
-        gap: 20px;
+        margin-bottom: 200px !important;
+        margin-top: 50px !important;
+        gap: 30px;
     }
 
     .main__info {
         align-items: center;
         text-align: center;
+        gap: 40px;
     }
 
     .main__info__titulo {
         font-size: 2rem;
+        font-weight: 300;
     }
 
     .main__info__texto {
         font-size: 1rem;
+        gap: 25px;
     }
 
     .main__info__botao {
@@ -177,6 +182,36 @@ body {
         width: 100%;
     }
 
+    .main__titulo__depoimentos {
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--cor-principal);
+        padding-bottom: 20px;
+    }
+
+    .main__carrocel {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .swiper {
+        width: 400px;
+        height: 300px;
+      }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-slide {
+        background-color: var(--cor-principal);
+        border-radius: 15px;
+        padding: 10%;
+        font-family: var(--fonte);
+        font-size: 1.3em;
+    }
+
     .footer {
         justify-content: center;
         margin: 20px;
@@ -184,7 +219,7 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     body {
         background-image: url("https://raw.githubusercontent.com/evertonmissiagia/basic-portfolio-2/e7ad6fd88db92591440b6764f5478d1641d3e51c/assets/img/bg-desktop.svg");
     }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles\style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a class="header__nav__item" href="index.html">Home</a>
+            <a class="header__nav__item" href="">Orçamentos</a>
+            <a class="header__nav__item" href="depoimentos.html">Depoimentos</a>    
+            <input type="search" class="header__barra__pesquisa" placeholder="Pesquisar...">
+        </nav>
+    </header>
+
+    <main class="main">
+            <h2 class="main__titulo__depoimentos">O que outros clientes dizem sobre a gente</h2>
+        <section class="main__carrocel">
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nemo quidem molestiae! Optio consequuntur non similique, maxime magnam tempore alias neque sed minima aspernatur quisquam. Aperiam quos nemo eius beatae.</div>
+
+                <div class="swiper-slide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nemo quidem molestiae! Optio consequuntur non similique, maxime magnam tempore alias neque sed minima aspernatur quisquam. Aperiam quos nemo eius beatae.</div>
+
+                <div class="swiper-slide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nemo quidem molestiae! Optio consequuntur non similique, maxime magnam tempore alias neque sed minima aspernatur quisquam. Aperiam quos nemo eius beatae.</div>
+
+                <div class="swiper-slide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nemo quidem molestiae! Optio consequuntur non similique, maxime magnam tempore alias neque sed minima aspernatur quisquam. Aperiam quos nemo eius beatae.</div>
+                
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="footer__icon" href="">
+            <img src="assets\img\logo-whatsapp.png" alt="Logo do Whatsapp">
+        </a>
+
+        <a class="footer__icon" href="https://github.com/evertonmissiagia">
+            <img src="assets\img\logo-github.png" alt="Logo do Github">
+        </a>
+
+        <a class="footer__icon" href="www.linkedin.com/in/everton-augusto-missiagia-391936162">
+            <img src="assets\img\logo-linkedin.png" alt="Logo do Linkedin">
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+        });
+    </script>
+
+</body>
+</html>
